@@ -1,0 +1,6 @@
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.deps.json
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.AssemblyInfoInputs.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.AssemblyInfo.cs

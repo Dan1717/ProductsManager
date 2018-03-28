@@ -1,0 +1,11 @@
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.WebApi.deps.json
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.WebApi.runtimeconfig.json
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.WebApi.runtimeconfig.dev.json
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.WebApi.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.WebApi.AssemblyInfoInputs.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.WebApi.AssemblyInfo.cs
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.WebApi.pdb
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.WebApi.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.WebApi.pdb

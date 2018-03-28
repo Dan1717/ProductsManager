@@ -1,0 +1,11 @@
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.deps.json
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.runtimeconfig.json
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.runtimeconfig.dev.json
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.pdb
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.csprojResolveAssemblyReference.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.csproj.CoreCompileInputs.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.AssemblyInfoInputs.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.AssemblyInfo.cs
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.pdb
