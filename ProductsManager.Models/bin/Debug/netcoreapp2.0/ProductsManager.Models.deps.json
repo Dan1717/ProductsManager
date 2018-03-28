@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "ProductsManager.Services/1.0.0": {
+      "ProductsManager.Models/1.0.0": {
         "runtime": {
-          "ProductsManager.Services.dll": {}
+          "ProductsManager.Models.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "ProductsManager.Services/1.0.0": {
+    "ProductsManager.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

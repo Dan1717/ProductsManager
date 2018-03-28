@@ -4,3 +4,6 @@ C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\net
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.csproj.CoreCompileInputs.cache
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.AssemblyInfoInputs.cache
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.AssemblyInfo.cs
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.Services.pdb
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.pdb

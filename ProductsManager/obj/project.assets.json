@@ -2,17 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "EntityFramework/6.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.SqlServer.dll": {},
-          "lib/net45/EntityFramework.dll": {}
-        }
-      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -3134,33 +3123,6 @@
           }
         }
       },
-      "SimpleInjector/4.1.0": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.0",
-          "System.ComponentModel": "4.0.1"
-        },
-        "compile": {
-          "lib/netstandard1.3/SimpleInjector.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/SimpleInjector.dll": {}
-        }
-      },
-      "SimpleInjector.Integration.AspNetCore/4.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
-          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
-          "SimpleInjector": "4.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll": {}
-        }
-      },
       "SQLitePCLRaw.bundle_green/1.1.7": {
         "type": "package",
         "dependencies": {
@@ -5066,37 +5028,34 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "ProductsManager.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
+          "ProductsManager.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProductsManager.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductsManager.DataAccess.dll": {}
+        }
+      },
+      "ProductsManager.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ProductsManager.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductsManager.Models.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "EntityFramework/6.2.0": {
-      "sha512": "ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
-      "type": "package",
-      "path": "entityframework/6.2.0",
-      "files": [
-        "content/net40/App.config.transform",
-        "content/net40/Web.config.transform",
-        "entityframework.6.2.0.nupkg.sha512",
-        "entityframework.nuspec",
-        "lib/net40/EntityFramework.SqlServer.dll",
-        "lib/net40/EntityFramework.SqlServer.xml",
-        "lib/net40/EntityFramework.dll",
-        "lib/net40/EntityFramework.xml",
-        "lib/net45/EntityFramework.SqlServer.dll",
-        "lib/net45/EntityFramework.SqlServer.xml",
-        "lib/net45/EntityFramework.dll",
-        "lib/net45/EntityFramework.xml",
-        "tools/EntityFramework.PowerShell.Utility.dll",
-        "tools/EntityFramework.PowerShell.dll",
-        "tools/EntityFramework.psd1",
-        "tools/EntityFramework.psm1",
-        "tools/about_EntityFramework.help.txt",
-        "tools/init.ps1",
-        "tools/install.ps1",
-        "tools/migrate.exe"
-      ]
-    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -8357,34 +8316,6 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "SimpleInjector/4.1.0": {
-      "sha512": "aqUeQpdq+b76cqJD+Yp2ruj4ZrkH3d0n87HA/MfAIJlqDAJGdDoZlSnKvFNs4zrWI1D5ok8jCJRCeDiU1VZjgA==",
-      "type": "package",
-      "path": "simpleinjector/4.1.0",
-      "files": [
-        "lib/net40/SimpleInjector.dll",
-        "lib/net40/SimpleInjector.xml",
-        "lib/net45/SimpleInjector.dll",
-        "lib/net45/SimpleInjector.xml",
-        "lib/netstandard1.0/SimpleInjector.dll",
-        "lib/netstandard1.0/SimpleInjector.xml",
-        "lib/netstandard1.3/SimpleInjector.dll",
-        "lib/netstandard1.3/SimpleInjector.xml",
-        "simpleinjector.4.1.0.nupkg.sha512",
-        "simpleinjector.nuspec"
-      ]
-    },
-    "SimpleInjector.Integration.AspNetCore/4.1.0": {
-      "sha512": "exh629xWyeOzA5hzq+JzI8Osr//ILKaOFamOUJbXOa+2ZyTc2q89RRS5f3bQZYIxKKS52sqFFJ43ssCh3OG2SQ==",
-      "type": "package",
-      "path": "simpleinjector.integration.aspnetcore/4.1.0",
-      "files": [
-        "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll",
-        "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.xml",
-        "simpleinjector.integration.aspnetcore.4.1.0.nupkg.sha512",
-        "simpleinjector.integration.aspnetcore.nuspec"
       ]
     },
     "SQLitePCLRaw.bundle_green/1.1.7": {
@@ -13207,16 +13138,26 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "ProductsManager.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../ProductsManager.DataAccess/ProductsManager.DataAccess.csproj",
+      "msbuildProject": "../ProductsManager.DataAccess/ProductsManager.DataAccess.csproj"
+    },
+    "ProductsManager.Models/1.0.0": {
+      "type": "project",
+      "path": "../ProductsManager.Models/ProductsManager.Models.csproj",
+      "msbuildProject": "../ProductsManager.Models/ProductsManager.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "EntityFramework >= 6.2.0",
       "Microsoft.AspNetCore.All >= 2.0.6",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.2",
+      "Microsoft.EntityFrameworkCore.Tools >= 2.0.2",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.3",
-      "SimpleInjector >= 4.1.0",
-      "SimpleInjector.Integration.AspNetCore >= 4.1.0"
+      "ProductsManager.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13251,7 +13192,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dan\\source\\repos\\ProductsManager\\ProductsManager.DataAccess\\ProductsManager.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\dan\\source\\repos\\ProductsManager\\ProductsManager.DataAccess\\ProductsManager.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -13263,13 +13208,17 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "EntityFramework": {
-            "target": "Package",
-            "version": "[6.2.0, )"
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.6, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "target": "Package",
+            "version": "[2.0.2, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
@@ -13279,14 +13228,6 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.0.3, )"
-          },
-          "SimpleInjector": {
-            "target": "Package",
-            "version": "[4.1.0, )"
-          },
-          "SimpleInjector.Integration.AspNetCore": {
-            "target": "Package",
-            "version": "[4.1.0, )"
           }
         },
         "imports": [
@@ -13296,17 +13237,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "EntityFramework",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

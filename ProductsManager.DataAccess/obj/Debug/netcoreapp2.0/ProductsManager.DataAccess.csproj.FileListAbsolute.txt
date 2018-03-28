@@ -4,3 +4,9 @@ C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\n
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.AssemblyInfoInputs.cache
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.AssemblyInfo.cs
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\bin\Debug\netcoreapp2.0\ProductsManager.Models.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.pdb
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\bin\Debug\netcoreapp2.0\ProductsManager.Models.pdb
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.csproj.CopyComplete
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.pdb

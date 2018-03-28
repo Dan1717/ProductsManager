@@ -1,0 +1,9 @@
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\bin\Debug\netcoreapp2.0\ProductsManager.Models.deps.json
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\bin\Debug\netcoreapp2.0\ProductsManager.Models.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\bin\Debug\netcoreapp2.0\ProductsManager.Models.pdb
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.csprojResolveAssemblyReference.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.csproj.CoreCompileInputs.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.AssemblyInfoInputs.cache
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.AssemblyInfo.cs
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.pdb

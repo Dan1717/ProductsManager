@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "8dd7e63dcd4ffd6370c2017882925842e9baafcd"
+    "signature": "65a0a2abc700ff2de01f961aceb1a3c1f3ed1b4f"
   },
   "compilationOptions": {
     "defines": [
@@ -24,10 +24,11 @@
       "ProductsManager.WebApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.2",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
-          "SimpleInjector": "4.1.0",
-          "SimpleInjector.Integration.AspNetCore": "4.1.0"
+          "ProductsManager.DataAccess": "1.0.0"
         },
         "runtime": {
           "ProductsManager.WebApi.dll": {}
@@ -2687,31 +2688,6 @@
           }
         }
       },
-      "SimpleInjector/4.1.0": {
-        "dependencies": {
-          "NETStandard.Library": "2.0.0",
-          "System.ComponentModel": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/SimpleInjector.dll": {}
-        },
-        "compile": {
-          "lib/netstandard1.3/SimpleInjector.dll": {}
-        }
-      },
-      "SimpleInjector.Integration.AspNetCore/4.1.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.2",
-          "Microsoft.AspNetCore.Http.Abstractions": "2.0.2",
-          "SimpleInjector": "4.1.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll": {}
-        },
-        "compile": {
-          "lib/netstandard2.0/SimpleInjector.Integration.AspNetCore.dll": {}
-        }
-      },
       "SQLitePCLRaw.bundle_green/1.1.7": {
         "dependencies": {
           "SQLitePCLRaw.core": "1.1.7",
@@ -4078,6 +4054,26 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
+      "ProductsManager.DataAccess/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
+          "ProductsManager.Models": "1.0.0"
+        },
+        "runtime": {
+          "ProductsManager.DataAccess.dll": {}
+        },
+        "compile": {
+          "ProductsManager.DataAccess.dll": {}
+        }
+      },
+      "ProductsManager.Models/1.0.0": {
+        "runtime": {
+          "ProductsManager.Models.dll": {}
+        },
+        "compile": {
+          "ProductsManager.Models.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.0.0": {
@@ -5643,20 +5639,6 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
-    "SimpleInjector/4.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-aqUeQpdq+b76cqJD+Yp2ruj4ZrkH3d0n87HA/MfAIJlqDAJGdDoZlSnKvFNs4zrWI1D5ok8jCJRCeDiU1VZjgA==",
-      "path": "simpleinjector/4.1.0",
-      "hashPath": "simpleinjector.4.1.0.nupkg.sha512"
-    },
-    "SimpleInjector.Integration.AspNetCore/4.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-exh629xWyeOzA5hzq+JzI8Osr//ILKaOFamOUJbXOa+2ZyTc2q89RRS5f3bQZYIxKKS52sqFFJ43ssCh3OG2SQ==",
-      "path": "simpleinjector.integration.aspnetcore/4.1.0",
-      "hashPath": "simpleinjector.integration.aspnetcore.4.1.0.nupkg.sha512"
-    },
     "SQLitePCLRaw.bundle_green/1.1.7": {
       "type": "package",
       "serviceable": true,
@@ -6405,6 +6387,16 @@
       "sha512": "sha512-W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
+    },
+    "ProductsManager.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductsManager.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.NETCore.App/2.0.0": {
       "type": "package",

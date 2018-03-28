@@ -7,22 +7,14 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using SimpleInjector;
 
 namespace ProductsManager
 {
     public class Program
     {
-        static Container container;
         static Program()
         {
-            container = new Container();
-            //container.Options.DefaultScopedLifestyle = new WebRequestLifestyle();
-            //container.Register<IOrderRepository, SqlOrderRepository>();
-            //container.Register<ILogger, FileLogger>(Lifestyle.Singleton);
-            //container.Register<CancelOrderHandler>();
-            //container.Verify();
-            //DependencyResolver.SetResolver(new SimpleInjectorDependencyResolver(container));
+
         }
         public static void Main(string[] args)
         {
