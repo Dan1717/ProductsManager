@@ -1,7 +1,7 @@
 ﻿using ProductsManager.DataAccess.Repository;
 using ProductsManager.Models.DAO;
 
-namespace ProductsManager.DataAccess.UnitOfWork
+namespace ProductsManager.DataAccess.Unit
 {
     public interface IUnitOfWork
     {

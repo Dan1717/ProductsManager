@@ -7,3 +7,8 @@ C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\net
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.Services.pdb
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.dll
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.pdb
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.Models.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.pdb
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.Models.pdb
+C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.csproj.CopyComplete

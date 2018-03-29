@@ -14,3 +14,5 @@ C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.
 C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.pdb
 C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.Models.pdb
 C:\Users\dan\source\repos\ProductsManager\ProductsManager\obj\Debug\netcoreapp2.0\ProductsManager.WebApi.csproj.CopyComplete
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.Services.dll
+C:\Users\dan\source\repos\ProductsManager\ProductsManager\bin\Debug\netcoreapp2.0\ProductsManager.Services.pdb

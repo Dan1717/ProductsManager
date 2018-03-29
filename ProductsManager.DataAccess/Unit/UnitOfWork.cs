@@ -3,7 +3,7 @@ using ProductsManager.DataAccess.Repository;
 using ProductsManager.Models.DAO;
 using System;
 
-namespace ProductsManager.DataAccess.UnitOfWork
+namespace ProductsManager.DataAccess.Unit
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {

@@ -7,11 +7,12 @@
 
 using Microsoft.EntityFrameworkCore;
 using ProductsManager.DataAccess.Context;
+using ProductsManager.DataAccess.Repository;
 using System.Linq;
 
 namespace ProductsManager.DataAccess
 {
-    public abstract class BaseRepository <TEntity> where TEntity : class
+    public abstract class BaseRepository <TEntity> : IBaseRepository <TEntity> where TEntity : class
     {
         public DataContext dbcontext;
         public DbSet<TEntity> dbSet;

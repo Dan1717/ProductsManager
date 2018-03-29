@@ -21,7 +21,8 @@ namespace ProductsManager.DataAccess.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(_options.ConnectionString);
+            //optionsBuilder.UseSqlServer(_options.ConnectionString);
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-0PPUALU; Initial Catalog = ProductManagerDB; User ID = sa; Password = 1111");
         }
 
         public DbSet<Category> Category { get; set; }

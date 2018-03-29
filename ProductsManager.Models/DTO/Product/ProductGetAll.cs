@@ -4,6 +4,6 @@ namespace ProductsManager.Models.DTO.Product
 {
     public class ProductGetAll
     {
-        IEnumerable<ProductGet> Products { get; set; }
+        public IEnumerable<ProductGet> Products { get; set; }
     }
 }

@@ -4,6 +4,6 @@ namespace ProductsManager.Models.DTO.Category
 {
     public class CategoryGetAll
     {
-        public IEnumerable<ProductGet> Categories { get; set; }
+        public IEnumerable<CategoryGet> Categories { get; set; }
     }
 }
