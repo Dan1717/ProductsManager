@@ -10,3 +10,15 @@ C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\bin\Debug\n
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.csproj.CopyComplete
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.dll
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.pdb
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.deps.json
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.dll
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.pdb
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\bin\Debug\netcoreapp2.0\ProductsManager.Models.dll
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\bin\Debug\netcoreapp2.0\ProductsManager.Models.pdb
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.csprojResolveAssemblyReference.cache
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.csproj.CoreCompileInputs.cache
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.AssemblyInfoInputs.cache
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.AssemblyInfo.cs
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.csproj.CopyComplete
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.dll
+C:\Project\ProductManager\ProductsManager\ProductsManager.DataAccess\obj\Debug\netcoreapp2.0\ProductsManager.DataAccess.pdb

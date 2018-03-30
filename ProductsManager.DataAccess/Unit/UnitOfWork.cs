@@ -7,24 +7,23 @@ namespace ProductsManager.DataAccess.Unit
 {
     public class UnitOfWork : IUnitOfWork, IDisposable
     {
-        private DataContext dbContext;
+        private readonly DataContext _dbContext;
 
         private IGenericRepository<Category> _categoryRepo;
         private IGenericRepository<Product> _productRepo;
 
-        public UnitOfWork()
-        {
-            dbContext = new DataContext();
+        public UnitOfWork(DataContext dataContext) {
+	        _dbContext = dataContext;
 
-            _categoryRepo = new GenericRepository<Category>(dbContext);
-            _productRepo = new GenericRepository<Product>(dbContext);
+            _categoryRepo = new GenericRepository<Category>(_dbContext);
+            _productRepo = new GenericRepository<Product>(_dbContext);
         }
 
         public IGenericRepository<Category> CategoryRepo
         {
             get
             {
-                if (_categoryRepo == null) _categoryRepo = new GenericRepository<Category>(dbContext);
+                if (_categoryRepo == null) _categoryRepo = new GenericRepository<Category>(_dbContext);
                 return _categoryRepo;
             }
         }
@@ -32,24 +31,13 @@ namespace ProductsManager.DataAccess.Unit
         {
             get
             {
-                if (_productRepo == null) _productRepo = new GenericRepository<Product>(dbContext);
+                if (_productRepo == null) _productRepo = new GenericRepository<Product>(_dbContext);
                 return _productRepo;
             }
         }
-        public void UpdateContext()
-        {
-            dbContext = new DataContext();
-        }
         public int Save()
         {
-            try
-            {
-                return dbContext.SaveChanges();
-            }
-            catch (Exception ex)
-            {
-                return 0;
-            }
+                return _dbContext.SaveChanges();
         }
 
         #region Dispose
@@ -62,7 +50,7 @@ namespace ProductsManager.DataAccess.Unit
             {
                 if (disposing)
                 {
-                    dbContext.Dispose();
+                    _dbContext.Dispose();
                 }
             }
             this.disposed = true;

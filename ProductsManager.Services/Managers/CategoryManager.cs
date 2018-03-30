@@ -36,20 +36,41 @@ namespace ProductsManager.Services.Managers
             _unitOfWork.Save();
         }
 
-        public void Update (CategoryUpdate category)
+        public ServiceResponse<CategoryUpdate> Update (int id, ServiceResponse<CategoryUpdate> categoryUpdateRequest)
         {
-            var currentCategory = _unitOfWork.CategoryRepo.GetById(category.Id);
-            if (currentCategory != null)
-            {
-               currentCategory = Mapper.Map<Category>(category);
-            }
+	        var serviceResponse = new ServiceResponse<CategoryUpdate>();
+	        if (categoryUpdateRequest == null || id != categoryUpdateRequest.Response.Id)
+			{
+				serviceResponse.Errors.Add(nameof(id), $"Category with id {id} does not exists or invalid id!");
+				serviceResponse.ResultCode = 404;
+			}
+           
+            if (serviceResponse.IsValid && categoryUpdateRequest != null)
+			{
+				var currentCategory = _unitOfWork.CategoryRepo.GetById(categoryUpdateRequest.Response.Id);
+				if (currentCategory != null) {
+					currentCategory = Mapper.Map<Category>(categoryUpdateRequest);
+					_unitOfWork.CategoryRepo.Update(currentCategory);
+				}
+			}
+			return serviceResponse;
         }
 
-        public CategoryGet Get (int id)
+        public ServiceResponse<CategoryGet> Get (int id)
         {
             var category = _unitOfWork.CategoryRepo.GetById(id);
 
-            return category != null ? Mapper.Map<CategoryGet>(category) : null;
+			var serviceResponse = new ServiceResponse<CategoryGet>();
+	        if (category == null) {
+		        serviceResponse.Errors.Add(nameof(id), $"Category with id {id} does not exists!");
+		        serviceResponse.ResultCode = 404;
+	        }
+
+	        if (serviceResponse.IsValid) {
+		        serviceResponse.Response = Mapper.Map<CategoryGet>(category);
+	        }
+
+	        return serviceResponse;
         }
 
         public CategoryGetAll GetAll()

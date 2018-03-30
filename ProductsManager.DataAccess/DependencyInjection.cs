@@ -11,7 +11,7 @@ namespace ProductsManager.DataAccess
         {
             serviceCollection.AddDbContext<DataContext>();
             // repositories, etc
-            serviceCollection.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+            //serviceCollection.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
             serviceCollection.AddTransient<IUnitOfWork, UnitOfWork>();

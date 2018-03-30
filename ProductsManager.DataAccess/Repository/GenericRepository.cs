@@ -8,8 +8,8 @@ namespace ProductsManager.DataAccess.Repository
     public class GenericRepository<TEntity> : BaseRepository<TEntity>,
         IGenericRepository<TEntity> where TEntity : class
     {
-        public GenericRepository(DataContext context)
-          : base(context)
+        public GenericRepository(DataContext unitOfWork)
+          : base(unitOfWork)
         {
         }
     }

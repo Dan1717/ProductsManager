@@ -7,3 +7,12 @@ C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\obj\Debug\netco
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.AssemblyInfo.cs
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.dll
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.pdb
+C:\Project\ProductManager\ProductsManager\ProductsManager.Models\bin\Debug\netcoreapp2.0\ProductsManager.Models.deps.json
+C:\Project\ProductManager\ProductsManager\ProductsManager.Models\bin\Debug\netcoreapp2.0\ProductsManager.Models.dll
+C:\Project\ProductManager\ProductsManager\ProductsManager.Models\bin\Debug\netcoreapp2.0\ProductsManager.Models.pdb
+C:\Project\ProductManager\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.csprojResolveAssemblyReference.cache
+C:\Project\ProductManager\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.csproj.CoreCompileInputs.cache
+C:\Project\ProductManager\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.AssemblyInfoInputs.cache
+C:\Project\ProductManager\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.AssemblyInfo.cs
+C:\Project\ProductManager\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.dll
+C:\Project\ProductManager\ProductsManager\ProductsManager.Models\obj\Debug\netcoreapp2.0\ProductsManager.Models.pdb

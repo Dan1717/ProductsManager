@@ -18,6 +18,7 @@ using ProductsManager.Services.Managers;
 using ProductsManager.DataAccess.Unit;
 using ProductsManager.DataAccess.Repository;
 using ProductsManager.DataAccess.Context;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace ProductsManager
 {
@@ -35,15 +36,20 @@ namespace ProductsManager
         {
             services.AddMvc();
             services.AddOptions();
-            services.Configure<DatabaseOptions>(Configuration.GetSection("Database"));
-            //services.UseDataAccessLayer();
+            services.Configure<DatabaseOptions>(Configuration.GetSection("DefaultConnection"));
+            services.UseDataAccessLayer();
 
-            services.AddDbContext<DataContext>();
-            // repositories, etc
-            //services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
-            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+			//services.AddDbContext<DataContext>();
+			// repositories, etc
+			//services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+			//  services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
-            services.AddTransient<IUnitOfWork, UnitOfWork>();
+			services.AddSwaggerGen(c =>
+			{
+				c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+			});
+
+			//services.AddTransient<IUnitOfWork, UnitOfWork>();
 
             services.AddAutoMapper();
 
@@ -58,8 +64,13 @@ namespace ProductsManager
             {
                 app.UseDeveloperExceptionPage();
             }
+	        app.UseSwagger();
+	        app.UseSwaggerUI(c =>
+	        {
+		        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+	        });
 
-            app.UseMvc();
+			app.UseMvc();
         }
     }
 

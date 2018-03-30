@@ -12,3 +12,17 @@ C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\bin\Debug\net
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.pdb
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.Models.pdb
 C:\Users\dan\source\repos\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.csproj.CopyComplete
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.Services.deps.json
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.Services.dll
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.Services.pdb
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.dll
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.Models.dll
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.DataAccess.pdb
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\bin\Debug\netcoreapp2.0\ProductsManager.Models.pdb
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.csprojResolveAssemblyReference.cache
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.csproj.CoreCompileInputs.cache
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.AssemblyInfoInputs.cache
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.AssemblyInfo.cs
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.csproj.CopyComplete
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.dll
+C:\Project\ProductManager\ProductsManager\ProductsManager.Services\obj\Debug\netcoreapp2.0\ProductsManager.Services.pdb
